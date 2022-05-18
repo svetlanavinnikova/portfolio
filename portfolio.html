@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV|DESIGN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header portfolio__header">
+            <a href="./index.html" class="link-btn header__btn">
+                <img src="./img/arrow-back.svg" alt="" class="arrow--black">
+                <span class="link__text">На главную</span>
+            </a>
+            <a href="./index.html" class="mobile-arrow">
+                <img src="./img/arrow-back.svg" alt="На главную" class="arrow-back">
+            </a>
+        </header>
+            <ul class="portfolio__list">
+                <li id="filter-item" class="portfolio__item portfolio__item--current">все работы</li>   
+                <li id="poster" class="portfolio__item">плакаты</li>
+                <li id="inst" class="portfolio__item">Instagram</li>
+                <li id="site" class="portfolio__item">сайты</li>
+                <li id="b-card" class="portfolio__item">визитки</li>
+                <li id="site-making" class="portfolio__item">верстка</li>   
+            </ul>
+        <div class="poster filter-item">
+            <p class="section-title">плакаты</p>
+            <div class="row">
+                <img src="./img/попарт.png" alt="Поп-арт плакат" class="portfolio__img portfolio__img--popart">
+                <img src="./img/planets.png" alt="Учебный плакат" class="portfolio__img portfolio__img--edu">
+            </div>
+            <div class="row">
+                <img src="./img/афиша.png" alt="Киноафиша" class="portfolio__img portfolio__img--poster">
+                <img src=".//img/xfit.png" alt="Спортивный плакат" class="portfolio__img portfolio__img--sport">
+            </div>
+        </div>
+        <div class="inst filter-item">
+            <p class="section-title work__title">инстаграм</p>
+            <div class="row row--top">
+                <img src="./img/анаскус.png" alt="Anaskuzzzz" class="portfolio__img portfolio__img--anaskuz">
+                <img src="./img/lawer.png" alt="Посты для инстаграмм" class="portfolio__img portfolio__img--posts">
+            </div>
+        </div>
+        <div class="site filter-item">
+            <p class="section-title work__title">сайты</p>
+            <div class="row row--top">
+                <a href="./svdesign.html" class="portfolio__link">
+                    <img src="./img/svdesign.png" alt="sv|design" class="portfolio__img portfolio__img--svdesign">
+                </a>
+            </div>
+        </div>
+        <div class="b-card filter-item">
+            <p class="section-title work__title" id="card">Визитки</p>
+            <div class="row">
+                <div class="b-card__wrap">
+                    <img class="b-card__img" src="./img/VottakFelicita визитка (лицеваая сторона).png" alt="Визитка для VottakFelicita" class="b-card__img">
+                </div>
+                <div class="b-card__wrap">
+                    <img class="b-card__img" src="./img/amore SI.png" alt="Визитка для VottakFelicita" class="b-card__img">
+                </div>
+            </div>
+        </div>
+        <div class="site-making filter-item">
+            <p class="section-title work__title">верстка</p>
+            <div class="poftfolio__site-making">
+                <div class="site__column">
+                    <a href="https://svetlanavinnikova.github.io/Landix/" class="portfolio__site-link">landix</a>
+                    <a href="https://svetlanavinnikova.github.io/Nextme/" class="portfolio__site-link">next me</a>   
+                    <a href="https://svetlanavinnikova.github.io/Cootels/" class="portfolio__site-link">cootels</a>
+                </div>
+                <div class="site__column">
+                    <a href="https://svetlanavinnikova.github.io/Ugmonk/" class="portfolio__site-link">ugmonk</a>
+                    <a href="https://svetlanavinnikova.github.io/" class="portfolio__site-link">портфолио</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__connect">
+                <div class="footer__title">связь со мной</div>
+                <a class="footer__phone" href="tel:+79507056522">+7 950 705 65 22</a>
+                <a class="footer__mail" href="mailto:snvinnikova@yandex.ru">snvinnikova@yandex.ru</a>
+            </div>
+            <ul class="footer__list">
+                <li class="footer-list__item"><a href="./index.html#about" class="footer-list__link">Обо мне</a></li>
+                <li class="footer-list__item"><a href="./portfolio.html" class="footer-list__link">Портфолио</a></li>
+                <li class="footer-list__item"><a href="./index.html#order" class="footer-list__link">Контакты</a></li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer-list__item"><a href="" class="footer-list__link">Скачать бриф</a></li>
+                <li class="footer-list__item"><a href="" class="footer-list__link">Этапы работы</a></li>
+            </ul>
+            <div class="logo">
+                <a href="./index.html" class="logo__link"><img src="./img/logo(white).svg" alt="SV|DESIGN">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
